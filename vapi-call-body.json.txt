@@ -1,0 +1,13 @@
+{
+  "assistantId": "YOUR_ASSISTANT_ID",
+  "phoneNumberId": "YOUR_PHONE_NUMBER_ID",
+  "customer": {
+    "number": "{{PHONE_FIELD}}",
+    "name": "{{FIRST_NAME_FIELD}}"
+  },
+  "metadata": {
+    "leadSource": "Airtable",
+    "serviceType": "{{SERVICE_TYPE_FIELD}}",
+    "notes": "{{NOTES_FIELD}}"
+  }
+}

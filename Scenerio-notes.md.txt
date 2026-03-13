@@ -1,0 +1,38 @@
+# Scenario Notes
+
+Scenario Name:
+SILKY CLEAN Integration Airtable + Voice agent
+
+## Main Flow
+
+Airtable Lead  
+→ Router
+
+### Route 1
+WhatsApp Business Cloud → Airtable Update
+
+### Route 2
+Slack Notification
+
+### Route 3
+Vapi AI Outbound Call
+
+## Router Logic
+
+Preferred contact method determines which communication channel is used.
+
+Call → Vapi  
+WhatsApp → WhatsApp message
+
+Slack always receives an internal alert.
+
+## Fields Used
+
+- First Name
+- Email
+- Phone
+- Service Type
+- Notes
+- Preferred Contact Method
+- Stage
+- Contact Route
